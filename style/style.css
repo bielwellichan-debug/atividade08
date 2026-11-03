@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Redaction+20:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+    background-color: #400212;
+    color: #BF8339;
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2{
+    color: #418C35;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+a{
+    color: #BF3030;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background-color: #8C072B;
+    color: #418C35;
+
+    padding: 30px 0;
+}
+
+.subtitulo{
+    max-width: 700px;
+}
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    list-style: none;
+}
+
+.menu-link{
+    display:inline-block;
+
+    padding: 8px 12px;
+
+    background-color: white;
+    color: #400212;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table caption{
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    text-align: left;
+}
+
+table th, table td{
+   padding: 12px;
+
+    border: 1px solid #cbd5e1;
+
+    text-align: left;
+}
+
+table thead{
+    background-color: #dbeafe;
+}
+
+table tfoot{
+    background-color: #f1f5f9;
+}
