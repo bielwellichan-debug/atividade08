@@ -2,3 +2,59 @@
     font-size: 35px;
     text-align: center;
 }
+
+.formulario{
+    padding: 25px;
+    
+    background-color: #9dbeda;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.formulario fieldset{
+    margin-bottom: 20px;
+    padding: 20px;
+
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+}
+
+.formulario legend{
+    padding: 0 8px;
+
+    color: #400212;
+
+    font-weight: bold;
+}
+
+.campo-formulario{
+    margin-bottom: 16px;
+}
+
+.campo-formulario label{
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+.campo-formulario input, .campo-formulario textarea{
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #94a3b8;
+    border-radius: 4px;
+}
+
+.acoes-formulario button{
+    padding: 10px 18px;
+
+    background-color: white;
+    color: #418C35;
+
+    border: 0;
+    border-radius: 5px;
+}

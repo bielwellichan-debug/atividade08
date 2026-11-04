@@ -176,15 +176,58 @@
                         E para finalizar, vamos à ceia!
                         <br>
                         <br>
-                        A ceia também tem origens em festas antigas e medievais da Europa. Ela está ligada à celebração do solstício de inverno e da Saturnália, um importante festival romano celebrado em dezembro.
+                        A ceia também tem origens em festas antigas e medievais da Europa. Ela está ligada à celebração
+                        do solstício de inverno e da Saturnália, um importante festival romano celebrado em dezembro.
                         <br>
                         <br>
-                        Ela simboliza a união e a confraternização das famílias. Assim, na véspera de Natal, os familiares se reúnem à mesa para a tradicional ceia de Natal.
+                        Ela simboliza a união e a confraternização das famílias. Assim, na véspera de Natal, os
+                        familiares se reúnem à mesa para a tradicional ceia de Natal.
                         <br>
                         <br>
                         Na cultura brasileira é comum ter o peru de Natal, as frutas secas e o panetone.
                     </article>
                 </div>
+
+                <form class="formulario" action="#" method="post">
+                    <fieldset>
+                        <legend>Questionário</legend>
+
+                        <div class="campo-formulario">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="simbolos" name="simbolos" placeholder="Digite seu nome Completo"
+                                minlength="3" maxlength="80" required>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="email@exemplo.com.br" required>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="simbolos">Simbolos de Natal cohecidos:</label>
+                            <input type="text" id="simbolos" name="simbolos"
+                                placeholder="Digite alguns símbolos que você já conhecia e já utilizou" minlength="3"
+                                maxlength="80" required>
+                        </div>
+                        <fieldset>
+                            <legend>Área de interesse</legend>
+                            <label for=""><input type="checkbox" name="panetone" value="panetone">Panetonne</label>
+                            <label for=""><input type="checkbox" name="papai" value="papai">Papai Noel</label>
+                            <label for=""><input type="checkbox" name="sao" value="sao">São Nicolau</label>
+                            <label for=""><input type="checkbox" name="belem" value="belem">Estrela de Belém</label>
+                            <label for=""><input type="checkbox" name="presepio" value="presepio">Presépio</label>
+                            <label for=""><input type="checkbox" name="sao" value="sao">Jesus Cristo</label>
+                        </fieldset>
+                        <div class="campo-formulario">
+                            <label for="mensagem">Escreva sua mensagem de Natal:</label>
+                            <textarea name="mensagem" id="mensagem" rows="8" minlength="10" maxlength="1000"
+                                placeholder="Escreva aqui..." required></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div class="acoes-formulario">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
 
             </div>
         </section>
