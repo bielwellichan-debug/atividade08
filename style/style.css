@@ -7,11 +7,11 @@
 body{
     margin: 0;
 
-    background-color: #400212;
-    color: #BF8339;
+    background-image: linear-gradient(45deg, #400212 75%, #8C072B 40%);
+    color: #c2853a;
 
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
@@ -29,7 +29,7 @@ h2{
 }
 
 a{
-    color: #BF3030;
+    color: black;
 }
 
 .container{
@@ -47,6 +47,7 @@ a{
 
 .subtitulo{
     max-width: 700px;
+    font-size: 20px;
 }
 
 .menu-lista{
@@ -54,29 +55,47 @@ a{
     padding: 0;
 
     list-style: none;
-}
 
-.menu-lista li{
-    display: inline-block;
-
-    margin-right: 8px;
-    margin-bottom: 8px;
-
-    list-style: none;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
 }
 
 .menu-link{
     display:inline-block;
 
     padding: 8px 12px;
+    margin-left: 10px;
+    margin-right: 5px;
 
-    background-color: white;
+    background-color: rgb(182, 165, 165);
     color: #400212;
 
     border: 1px solid white;
     border-radius: 5px;
 
     text-decoration: none;
+}
+
+.container-imagem{
+    margin: 50px auto;
+    width: 300px;
+    height: 200px;
+
+    transition-property: width, height;
+    transition-duration: 5s, 5s;
+    transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.container-imagem:hover{
+    width: 700px;
+    height: 300px;
+}
+
+.container-imagem img{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 table{
@@ -96,15 +115,99 @@ table caption{
 table th, table td{
    padding: 12px;
 
-    border: 1px solid #cbd5e1;
+    border: 1px solid #d2ebec;
 
     text-align: left;
 }
 
 table thead{
-    background-color: #dbeafe;
+    background-color: #d2ebec;
 }
 
 table tfoot{
-    background-color: #f1f5f9;
+    background-color: #d2ebec;
+}
+
+.secao{
+    padding: 72px;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid white;
+    border-radius: 5px;
+}
+
+.grade-cardss{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: #9dbeda;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px #EBFEFF;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #BF3030;
+    text-align: center;
+}
+
+.rodape a{
+    text-decoration: none;
+}
+
+.rodape address{
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+
+#lista-menu:hover .menu-lista{
+    height: 60px;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    border-radius: 7px;
+    width: auto;
+    height: auto;
+
+    background-color: white;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    list-style: none;
+}
+
+nav #lista-menu{
+    display: inline-block;
+    list-style: none;
+    padding: 2px 0px 0px 0px;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.menu-principal ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#lista-menu {
+    margin-left: 0;
+    padding-left: 0;
 }
