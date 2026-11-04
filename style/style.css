@@ -7,7 +7,7 @@
 body{
     margin: 0;
 
-    background-image: linear-gradient(45deg, #400212 75%, #8C072B 40%);
+    background-image: linear-gradient(60deg, #400212 81.5%, #8C072B 40%);
     color: #c2853a;
 
     font-family: 'Montserrat';
@@ -68,8 +68,8 @@ a{
     margin-left: 10px;
     margin-right: 5px;
 
-    background-color: rgb(182, 165, 165);
-    color: #400212;
+    background-color: #400212;
+    color: white;
 
     border: 1px solid white;
     border-radius: 5px;
@@ -96,6 +96,7 @@ a{
     display: block;
     width: 100%;
     height: 100%;
+    border-radius: 8px;
 }
 
 table{
@@ -210,4 +211,12 @@ nav #lista-menu{
 #lista-menu {
     margin-left: 0;
     padding-left: 0;
+}
+
+.boneco{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 170px;
+    height: 150px;
 }
